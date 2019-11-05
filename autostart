@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -e "\e[?1000h"
+echo -e "\e[?1000l"
+while true
+do
+ sudo python3 /home/pi/Restauration/RESTO_PROGRAM.py
+ sleep 1
+done
